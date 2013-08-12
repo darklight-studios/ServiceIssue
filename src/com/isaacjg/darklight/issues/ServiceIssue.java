@@ -6,6 +6,31 @@ import java.io.InputStreamReader;
 
 import com.ijg.darklight.sdk.core.Issue;
 
+/*
+ * ServiceIssue - An Issue for Darklight Nova Core
+ * Copyright © 2013 Isaac Grant
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * ServiceIssue is an Issue for Darklight Nova Core that checks the
+ * status of a given service
+ * 
+ * @author Isaac Grant
+ */
+
 public class ServiceIssue extends Issue {
 
 	public static final int ENABLED = 0;
